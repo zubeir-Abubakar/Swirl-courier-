@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+/* remove default style  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* adding style to the page  */
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.h1-1 {
+  font-family: 'Lato', sans-serif;
+  color: green;
+  font-weight: 700;
+}
+
+.main {
+  margin-top: 170px;
+  height: 700px;
+}
+
+.result-text {
+  margin-left: 11rem;
+}
+
+/* adding font family to text */
+.lato {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+}
+
+.range {
+  position: absolute;
+  right: 0;
+  top: 20px;
+  height: 20px;
+  max-width: 100%;
+}
+
+.side-img {
+  position: relative;
+  right: -16px;
+  top: -190px;
+  z-index: -999;
+  overflow: hidden;
+}
+
+@media (max-width: 994px) {
+  .side-img {
+    display: none;
+  }
+}
+
+@media (max-width: 1000px) {
+  .result-text {
+    margin-left: 4rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .result-text {
+    margin-left: 0;
+  }
+}
+a1 {
+  font-size: larger;
+  font-weight: 1000;
+  font-family: 'sanserif', Courier, monospace;
+  }
