@@ -1,0 +1,29 @@
+.contact-us-cont {
+  background-image: url('../img/contact/bg-top.png'),
+    url('../img/contact/bg-bottom.png');
+  background-repeat: no-repeat, no-repeat;
+  background-position: 100% 5%, 0% 500px;
+}
+
+.color {
+  color: green;
+}
+
+.input-border {
+  border: 1px solid green;
+}
+
+.bg-color {
+  background-color: green;
+}
+
+@media (max-width: 500px) {
+  .contact-us-cont {
+    background-position: 250px -50px, 0% 1000%;
+  }
+}
+a1 {
+  font-size: larger;
+  font-weight: 1000;
+  font-family: 'sanserif', Courier, monospace;
+  }
